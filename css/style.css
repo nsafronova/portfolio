@@ -1,0 +1,536 @@
+*{
+  box-sizing: border-box;
+} 
+img{
+  max-width: 100%;
+}
+ body{
+  background-color: #20202D;
+  margin: 0;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ .container{
+  max-width: 945px;
+  width: 90%;
+  margin: auto;
+ }
+
+.section{
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+
+.section-title{
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 84px;
+}
+
+.hero{
+  padding-top: 50px;
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding-bottom: 155px;
+}
+
+ .hero-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+ }
+
+ .social-link{
+  margin-left: 20px;
+ }
+
+.social-link:first-child{
+  margin-left: 0;
+}
+
+.hero-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .hero-subtitle{
+  display: inline-block;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFBB01;
+  margin-bottom: 14px;
+ }
+
+ .hero-title{
+  font-size: 50px;
+  line-height: 59px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+ }
+
+ .hero-description{
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  max-width: 420px;
+  margin-top: 0;
+  margin-bottom: 38px;
+  margin-top: 64px;
+ }
+
+ .button{
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  box-shadow: 0px 4px 0px #B68500;
+  border: none;
+  border-radius: 5px 5px 10px 10px;
+  padding: 24px 42px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2E2E30;
+ }
+
+ .hero-avatar{
+  width: 389px;
+  height: 389px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url(/Users/natalasafronova/Desktop/rocknroll/january2022/site3day/site3day/img/avatar.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: 13px solid #fff;
+  background-size: 100%;
+ }
+
+ /*features*/
+
+ .features{
+  background-color: #000000;
+ }
+
+ .features-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+
+ .features-item{
+  flex-basis: 30%;
+  margin-bottom: 63px;
+ }
+
+.features-image{
+  display: block;
+  margin-bottom: 22px;
+ }
+
+ .features-tittle{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 16px;
+  }
+
+
+.features-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  }
+
+.projects{
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.project-slide{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.project-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project-bullet{
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 44px;
+}
+
+.project-bullet-active{
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  background: #FFBB01;
+}
+
+
+.project-time,.project-cost{
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+
+.project-time,.project-cost,.project-feedback{
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle{
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+.project-paragraph{
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+}
+
+.project-icon{
+  padding-right: 16px;
+}
+
+.project-text{
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-title{
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.contacts-form{
+  background: #FFFFFF;
+  box-shadow: -5px 5px 0px #FFC41D;
+  border-radius: 5px;
+  max-width: 380px;
+  padding-top: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 49px;
+  margin-right: 99px;
+}
+
+.form-title{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 29px;
+  }
+
+.input{
+  background: #F8F8F8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border: none;
+  border-radius: 5px;
+  padding: 18px 20px;
+  padding-left: 50px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.input-name{
+  margin-bottom: 17px;
+  background-image: url(/Users/natalasafronova/Desktop/rocknroll/january2022/site3day/site3day/img/user-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+.input-phone{
+  margin-bottom: 26px;
+  background-image: url(/Users/natalasafronova/Desktop/rocknroll/january2022/site3day/site3day/img/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+
+.form-button{
+ width: 100%;
+}
+
+.contacts-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacts-text{
+  flex-basis: 50%;
+}
+
+.contacts-data{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+}
+
+.contacts-phone,.contacts-mail{
+  flex-basis: 50%;
+  margin-bottom: 53px;
+}
+
+.contacts-social{
+  flex-basis: 100%;
+}
+
+.contacts-title{
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+margin: 0;
+margin-bottom: 15px;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: inherit;
+  margin-right: 37px;
+}
+
+.contact-link:hover{
+  text-decoration: underline;
+}
+
+.contacts-policy{
+  display: inline-block;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #A5A5A5;
+  margin-top: 72px;
+}
+
+
+/*responsive*/
+
+@media (max-width: 1100px){
+  .hero-avatar{
+    width: 300px;
+    height: 300px;
+    border-width: 10px;
+  }
+  .contacts-policy{
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 836px){
+  .hero-content{
+    flex-direction: column;
+  }
+
+  .hero-avatar{
+    order: 0;
+    width: 300px;
+    height: 300px;
+    border-width: 10px;
+    margin-bottom: 17px;
+
+  }
+
+  .hero-text{
+    order: 1;
+    text-align: center;
+  }
+
+  .features-item{
+    flex-basis: 45%;
+  }
+
+  .project-slide{
+    flex-direction: column;
+  }
+
+  .project-image{
+    margin-bottom: 46px;
+  }
+
+  .contacts-block{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-title{
+    margin: 0;
+    margin-bottom: 48px;
+  }
+  .contacts-form{
+  margin: 0;
+  margin-bottom: 58px;
+}
+
+  .hero-content{
+    flex-direction: column;
+  }
+}
+
+
+
+@media (max-width: 564px){
+  
+  .hero{
+    padding-bottom: 75px;
+  }
+
+  .hero-subtitle{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 4px;
+  }
+
+  .hero-avatar{
+    height: 113px;
+    width: 113px;
+    border-width: 4px;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .hero-header{
+    margin-bottom: 38px;
+  }
+
+  .social-link{
+    margin-left: 5px;
+  }
+
+  .hero-title{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .hero-description{
+    margin: 0;
+    margin-bottom: 34px;
+    font-size: 14px;
+    ine-height: 140%;
+  }
+
+  .section{
+    padding: 60px 0;
+  }
+
+
+  .section-title{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 49px;
+  }
+
+  .features-image{
+    height: 50px;
+    width: 50px;
+  }
+
+  .features-item{
+    margin-bottom: 30px;
+    flex-basis: 100%;
+  }
+
+  .features-tittle{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 6px;
+  }
+
+  .features-text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .project-title{
+    font-size: 18px;
+  line-height: 150%;
+  }
+
+  .project-image{
+    margin-bottom: 46px;
+  }
+
+  .project-time,.project-cost{
+    flex-basis: 100%;
+    margin-bottom: 33px;
+  }
+
+  .contacts-form{
+    padding: 40px 18px;
+
+  }
+
+  .form-title{
+    font-size: 15px;
+  line-height: 140%;
+  }
+
+  .form-button{
+    font-size: 10px;
+  line-height: 28px;
+  }
+
+  .contacts-phone,.contacts-mail,.contacts-social{
+    flex-basis: 100%;
+    margin-bottom: 35px;
+  }
+
+  .contacts-title{
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .contact-link{
+    font-size: 14px;
+  line-height: 16px;
+  margin-top: 13px;
+  }
+  
+}
+
+
+
+
+
+
+
